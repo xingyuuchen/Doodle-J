@@ -25,7 +25,7 @@ class Floor(BaseItem):
         if randint(0, 100) < 50:
             self.__itemOn = Spring(windowX, windowY)
             self.__itemOn.attachTo(self)
-        elif randint(0, 100) < 10:
+        if randint(0, 100) < 5:
             self.__itemOn = Rocket(windowX, windowY, self.getLeft(), self.getTop())
             self.__itemOn.attachTo(self)
 
