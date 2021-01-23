@@ -1,6 +1,6 @@
 先装pygame库：
 ```
-pip install pygame
+pip install pygame -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
 然后把自己的自拍放到images里面：再在main.py里，在
 ```
