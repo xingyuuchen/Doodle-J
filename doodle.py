@@ -14,11 +14,11 @@ class Doodle(BaseItem):
         self.__isAlive = True
 
         self.__speedHorizontal = 3
-        self.__initSpeedY = -6      # 弹一下的起始y速度
+        self.__initSpeedY = -7      # 弹一下的起始y速度
         self.__speedY = self.__initSpeedY
         self.__speedX = 0
         self.__accelerationX = 0.03
-        self.__accelerationY = 0.05
+        self.__accelerationY = 0.06
 
         self.__movingDir = 0  # -1左 0不动 1右
 
