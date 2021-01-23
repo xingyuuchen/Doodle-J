@@ -13,7 +13,6 @@ def mainLoop(photoPath='images/cxy.png'):
     X = screen.getWindowX()
     Y = screen.getWindowY()
     print(Y)
-    doodle = Doodle('images/cxy.png', 'piepie', X, Y, 180, 250)
     doodle = Doodle(photoPath, 'piepie', X, Y, 180, 250)
 
     screen.setDoodle(doodle)
