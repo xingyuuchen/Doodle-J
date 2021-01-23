@@ -22,10 +22,10 @@ class Floor(BaseItem):
 
         # 板子上面的东西：火箭 弹簧 怪物 等...
         self.__itemOn = None
-        if randint(0, 100) < 50:
+        if randint(0, 100) < 20:
             self.__itemOn = Spring(windowX, windowY)
             self.__itemOn.attachTo(self)
-        if randint(0, 100) < 5:
+        if randint(0, 100) < 20:
             self.__itemOn = Rocket(windowX, windowY, self.getLeft(), self.getTop())
             self.__itemOn.attachTo(self)
 
