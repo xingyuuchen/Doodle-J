@@ -12,12 +12,9 @@ def mainLoop(photoPath='images/cxy.png'):
     screen = Screen('images/bg.jpg')
     X = screen.getWindowX()
     Y = screen.getWindowY()
-<<<<<<< HEAD
     print(Y)
     doodle = Doodle('images/cxy.png', 'piepie', X, Y, 180, 250)
-=======
     doodle = Doodle(photoPath, 'piepie', X, Y, 180, 250)
->>>>>>> 8e8535c9bcf8aa529784936998676583efc9dcbd
 
     screen.setDoodle(doodle)
 
