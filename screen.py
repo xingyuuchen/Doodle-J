@@ -9,7 +9,7 @@ class Screen:
         raw_bg = pygame.image.load(bgFilePath)
         raw_bg_size = raw_bg.get_rect().size    # 原始图片大小
         self.__ratio = raw_bg_size[1] / raw_bg_size[0]
-        self.__windowX = 500
+        self.__windowX = 360
         self.__windowY = int(self.__windowX * self.__ratio)
         self.__bg = pygame.transform.scale(raw_bg, (self.__windowX, self.__windowY))
         self.__screen = pygame.display.set_mode((self.__windowX, self.__windowY))

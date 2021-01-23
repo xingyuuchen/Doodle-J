@@ -10,6 +10,7 @@ def mainLoop():
     screen = Screen('images/bg.jpg')
     X = screen.getWindowX()
     Y = screen.getWindowY()
+    print(Y)
     doodle = Doodle('images/cxy.png', 'piepie', X, Y, 180, 250)
 
     screen.setDoodle(doodle)
